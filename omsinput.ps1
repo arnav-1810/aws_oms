@@ -5,8 +5,8 @@ workflow omsinput {
 	 $accesskey = Get-AutomationVariable -Name 'aws_accesskey'
     	$OMSWorkspacename = Get-AutomationVariable -Name 'OMSwkspname'
     		$resourcegroupname = Get-AutomationVariable -Name 'OMSrgname'
-    		$customerId = Get-AutomationVariable -Name 'aws_customerid'
-    		$sharedKey = Get-AutomationVariable -Name 'aws_sharedkey'
+    		$customerId = Get-AutomationVariable -Name 'OMS_workspaceid'
+    		$sharedKey = Get-AutomationVariable -Name 'OMS_primarykey'
     		$profile_name = Get-AutomationVariable -Name 'aws_profilename'
     		$region = Get-AutomationVariable -Name 'aws_region'
     	$LogType = "awsperf"
